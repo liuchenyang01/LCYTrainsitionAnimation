@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+{
+    
+}
+@property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) NSIndexPath *currentIndexPath;
 @end
 

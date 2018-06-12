@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAC7909320CFC1EC0001019E /* LCYCustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC7909220CFC1EC0001019E /* LCYCustomTransition.m */; };
 		FAE273DB20CF752200CA8A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE273DA20CF752200CA8A32 /* AppDelegate.m */; };
 		FAE273DE20CF752200CA8A32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE273DD20CF752200CA8A32 /* ViewController.m */; };
-		FAE273E120CF752200CA8A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE273DF20CF752200CA8A32 /* Main.storyboard */; };
 		FAE273E320CF752200CA8A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE273E220CF752200CA8A32 /* Assets.xcassets */; };
 		FAE273E620CF752200CA8A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE273E420CF752200CA8A32 /* LaunchScreen.storyboard */; };
 		FAE273E920CF752200CA8A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE273E820CF752200CA8A32 /* main.m */; };
 		FAE273F320CF752200CA8A32 /* LCYTrainsitionAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE273F220CF752200CA8A32 /* LCYTrainsitionAnimationTests.m */; };
 		FAE273FE20CF752200CA8A32 /* LCYTrainsitionAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE273FD20CF752200CA8A32 /* LCYTrainsitionAnimationUITests.m */; };
+		FAE2741020CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2740E20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.m */; };
+		FAE2741120CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE2740F20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.xib */; };
+		FAE2741320CFB5F500CA8A32 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE2741220CFB5F500CA8A32 /* image1.png */; };
+		FAE2741720CFBA0B00CA8A32 /* LCYPushToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2741520CFBA0B00CA8A32 /* LCYPushToViewController.m */; };
+		FAE2741820CFBA0B00CA8A32 /* LCYPushToViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE2741620CFBA0B00CA8A32 /* LCYPushToViewController.xib */; };
+		FAE3A29820CFD129003237DB /* LCYCustomInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3A29720CFD129003237DB /* LCYCustomInteractiveTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FAC7909120CFC1EC0001019E /* LCYCustomTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYCustomTransition.h; sourceTree = "<group>"; };
+		FAC7909220CFC1EC0001019E /* LCYCustomTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYCustomTransition.m; sourceTree = "<group>"; };
 		FAE273D620CF752100CA8A32 /* LCYTrainsitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCYTrainsitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE273D920CF752200CA8A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAE273DA20CF752200CA8A32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAE273DC20CF752200CA8A32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FAE273DD20CF752200CA8A32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FAE273E020CF752200CA8A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE273E220CF752200CA8A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE273E520CF752200CA8A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE273E720CF752200CA8A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		FAE273F920CF752200CA8A32 /* LCYTrainsitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCYTrainsitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE273FD20CF752200CA8A32 /* LCYTrainsitionAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYTrainsitionAnimationUITests.m; sourceTree = "<group>"; };
 		FAE273FF20CF752200CA8A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE2740D20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		FAE2740E20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		FAE2740F20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCYCustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		FAE2741220CFB5F500CA8A32 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = SOURCE_ROOT; };
+		FAE2741420CFBA0B00CA8A32 /* LCYPushToViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYPushToViewController.h; sourceTree = "<group>"; };
+		FAE2741520CFBA0B00CA8A32 /* LCYPushToViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYPushToViewController.m; sourceTree = "<group>"; };
+		FAE2741620CFBA0B00CA8A32 /* LCYPushToViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCYPushToViewController.xib; sourceTree = "<group>"; };
+		FAE3A29620CFD129003237DB /* LCYCustomInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYCustomInteractiveTransition.h; sourceTree = "<group>"; };
+		FAE3A29720CFD129003237DB /* LCYCustomInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYCustomInteractiveTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +117,25 @@
 		FAE273D820CF752100CA8A32 /* LCYTrainsitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				FAE2741220CFB5F500CA8A32 /* image1.png */,
 				FAE273D920CF752200CA8A32 /* AppDelegate.h */,
 				FAE273DA20CF752200CA8A32 /* AppDelegate.m */,
 				FAE273DC20CF752200CA8A32 /* ViewController.h */,
 				FAE273DD20CF752200CA8A32 /* ViewController.m */,
-				FAE273DF20CF752200CA8A32 /* Main.storyboard */,
 				FAE273E220CF752200CA8A32 /* Assets.xcassets */,
 				FAE273E420CF752200CA8A32 /* LaunchScreen.storyboard */,
 				FAE273E720CF752200CA8A32 /* Info.plist */,
 				FAE273E820CF752200CA8A32 /* main.m */,
+				FAE2740D20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.h */,
+				FAE2740E20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.m */,
+				FAE2740F20CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.xib */,
+				FAE2741420CFBA0B00CA8A32 /* LCYPushToViewController.h */,
+				FAE2741520CFBA0B00CA8A32 /* LCYPushToViewController.m */,
+				FAE2741620CFBA0B00CA8A32 /* LCYPushToViewController.xib */,
+				FAC7909120CFC1EC0001019E /* LCYCustomTransition.h */,
+				FAC7909220CFC1EC0001019E /* LCYCustomTransition.m */,
+				FAE3A29620CFD129003237DB /* LCYCustomInteractiveTransition.h */,
+				FAE3A29720CFD129003237DB /* LCYCustomInteractiveTransition.m */,
 			);
 			path = LCYTrainsitionAnimation;
 			sourceTree = "<group>";
@@ -238,9 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE2741820CFBA0B00CA8A32 /* LCYPushToViewController.xib in Resources */,
+				FAE2741320CFB5F500CA8A32 /* image1.png in Resources */,
 				FAE273E620CF752200CA8A32 /* LaunchScreen.storyboard in Resources */,
 				FAE273E320CF752200CA8A32 /* Assets.xcassets in Resources */,
-				FAE273E120CF752200CA8A32 /* Main.storyboard in Resources */,
+				FAE2741120CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE2741720CFBA0B00CA8A32 /* LCYPushToViewController.m in Sources */,
 				FAE273DE20CF752200CA8A32 /* ViewController.m in Sources */,
+				FAC7909320CFC1EC0001019E /* LCYCustomTransition.m in Sources */,
 				FAE273E920CF752200CA8A32 /* main.m in Sources */,
+				FAE2741020CFB4AA00CA8A32 /* LCYCustomCollectionViewCell.m in Sources */,
+				FAE3A29820CFD129003237DB /* LCYCustomInteractiveTransition.m in Sources */,
 				FAE273DB20CF752200CA8A32 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +335,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAE273DF20CF752200CA8A32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAE273E020CF752200CA8A32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAE273E420CF752200CA8A32 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -433,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2EN49MUBLA;
 				INFOPLIST_FILE = LCYTrainsitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changba.LCYTrainsitionAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2EN49MUBLA;
 				INFOPLIST_FILE = LCYTrainsitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changba.LCYTrainsitionAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
